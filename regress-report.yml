@@ -1,46 +1,47 @@
-summary: |
+---
+-summary: |
     Работа категорий поиска по бренду
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
     Работоспособность корзины
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
     Работоспособность корзины
-status: fail
----
-summary: |
+   status: fail
+   
+-summary: |
     Кнопка «Очистить корзину»
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
     Проверка кнопки «Продолжить покупки»
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
     Мультиязычность
-status: fail
----
-summary: |
+   status: fail
+   
+-summary: |
     Возможность детального просмотра товара 
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
     Поиск по ключевому слову  
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
    Фильтрация поиска  по наличию      
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
    Проверка фильтрации товаров по цене  
-status: pass
----
-summary: |
+   status: pass
+   
+-summary: |
    Проверка кнопок «следующая» и «предыдущая»  
-status: fail
+   status: fail
 
 
 bugreports: []
