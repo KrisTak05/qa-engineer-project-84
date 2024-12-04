@@ -41,6 +41,5 @@ status: pass
 summary: |
    Проверка кнопок «следующая» и «предыдущая»  
 status: fail
-
-
+---
 bugreports: []
