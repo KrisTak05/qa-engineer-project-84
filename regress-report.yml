@@ -25,7 +25,7 @@ status: fail
 summary: |
     Возможность детального просмотра товара 
 status: pass
- ---
+---
 summary: |
     Поиск по ключевому слову  
 status: pass
