@@ -1,5 +1,5 @@
 - summary: |
-    при смене языка сайт перевоится не коректно
+    при смене языка сайт переводится не коректно
   environment: |
    https://hexlet-products-store.vercel.app/ /Windows 10 19045.5131  Mozilla Public License 2.0
   steps-to-reproduce: |
