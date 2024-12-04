@@ -5,7 +5,7 @@ requirement: |
 prerequisites:
     Открыта главная страница магазина 
 test-data: |
-    категория = (Essence, Glamour Beauty, Velvet Touch, Chic Cosmetics, Nail Couture, Calvin Klein, Chanel, Dior, Dolce & Gabbana, Gucci, Annibale Colombo, Furniture Co., Knoll, Bath Trends)
+    категория =>(Essence, Glamour Beauty, Velvet Touch, Chic Cosmetics, Nail Couture, Calvin Klein, Chanel, Dior, Dolce & Gabbana, Gucci, Annibale Colombo, Furniture Co., Knoll, Bath Trends);
 steps:
     - ищем категорию Essence
     - выбираем категорию Essence (должна появится галочка слева)
