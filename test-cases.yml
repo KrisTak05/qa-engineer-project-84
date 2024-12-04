@@ -1,12 +1,29 @@
 ---
+- summary: |
+    Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
+  requirement: |
+    Тестируемое требование. Например, при верном вводе логине и пароля пользователь должен войти в систему
+  prerequisites: |
+    Это условия, которые необходимы для проведения тест-кейса. Они должны быть выполнены еще до запуска тест-кейса.
+    Например, открыта страница логина
+  test-data: |
+    Тестовые данные
+    Логин = ilona Пароль = password
+  steps:
+    - Вводим логин
+    - Вводим пароль
+    - Нажимаем кнопку «Войти»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+    
 - summary:  |
     Работа категорий поиска по бренду
- requirement: |
-   При выборе определеной категории на странице появляется товар относящийся к ней 
- prerequisites: |
-   Открыта главная страница магазина 
- test-data: |
-   категория = Essence {Glamour Beauty; Velvet Touch; Chic Cosmetics; Nail Couture;Calvin Klein; Chanel; Dior; Dolce & Gabbana; Gucci; Annibale Colombo; Furniture Co.; Knoll; Bath Trends;}
+  requirement: |
+    При выборе определеной категории на странице появляется товар относящийся к ней 
+  prerequisites: |
+    Открыта главная страница магазина 
+  test-data: |
+    категория = Essence {Glamour Beauty; Velvet Touch; Chic Cosmetics; Nail Couture;Calvin Klein; Chanel; Dior; Dolce & Gabbana; Gucci; Annibale Colombo; Furniture Co.; Knoll; Bath Trends;}
  steps:
    - выбирать категорию Essence 
  expected-result: |
