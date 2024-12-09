@@ -4,7 +4,7 @@
   status: pass
    
 - summary: |
-   Работоспособность корзины
+   Возможность добавления товара в корзину
   status: pass
    
 - summary: |
@@ -20,7 +20,7 @@
   status: pass
    
 - summary: |
-    Мультиязычность
+    Проверка на мультиязычность
   status: fail
    
 - summary: |
