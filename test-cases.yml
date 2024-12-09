@@ -6,14 +6,14 @@
   prerequisites: |
     Открыта главная страница магазина 
   test-data: |
-    категория = Essence {Glamour Beauty; Velvet Touch; Chic Cosmetics; Nail Couture;Calvin Klein; Chanel; Dior; Dolce & Gabbana; Gucci; Annibale Colombo; Furniture Co.; Knoll; Bath Trends;}
+    бренд = Essence {Glamour Beauty; Velvet Touch; Chic Cosmetics; Nail Couture;Calvin Klein; Chanel; Dior; Dolce & Gabbana; Gucci; Annibale Colombo; Furniture Co.; Knoll; Bath Trends;}
   steps:
-    - выбирать категорию Essence 
+    - выбирать Essence 
   expected-result: |
-    На странице магазина появляются все товары соответствующей категории 
+    На странице магазина появляются все товары выбраного бренда 
 
 - summary:  |
-    Работоспособность корзины
+    Возможность добавления товара в корзину
   requirement: |
     При нажатии кнопки «В корзину» товар отрожается во вкладке «Корзина» 
   prerequisites: |
@@ -66,7 +66,7 @@
     Пользователь из корзины попадет на глвную страницу, при этом товары в корзине сохраняются в ней   
 
 - summary:  |
-    Мультиязычность
+    Проверка на мультиязычность
   requirement: |
     Сайт магазина доступен на двух языках и весь текст удобно читать
   prerequisites: |
@@ -99,7 +99,7 @@
   prerequisites: |
     Открыта главная страница магазина 
   test-data: |
-    категория = beauty (fragrances, furniture, groceries) 
+    ключевое слово  = beauty (fragrances, furniture, groceries) 
   steps:
     - ищем категорию beauty
     - выбираем категорию beauty
