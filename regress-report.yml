@@ -54,14 +54,14 @@ test-cases:
 
  - summary:  |
      Проверка возможности ввести некоректное значение в ценновой диапазон  
-  status: pass
+   status: pass
   
  - summary:  |
      Проверка поиска по ключевому слову
-  status: pass
+   status: pass
 
  - summary:  |
      Проверка возможности ввести в поле поиска некоректное значение 
-  status: pass
+   status: pass
   
 bugreports: []
