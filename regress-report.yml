@@ -43,6 +43,10 @@ test-cases:
  - summary: |
      Проверка кнопок «следующая» и «предыдущая»  
    status: fail
+   
+ - summary:  |
+   Проверка адаптивности верстки 
+  status: fail
 
 
 bugreports: []
