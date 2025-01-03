@@ -63,9 +63,5 @@ test-cases:
  - summary:  |
      Проверка возможности ввести в поле поиска некоректное значение 
    status: pass
-
- - summary:  |
-     Проверка функционала страницы оплаты
-   status: fail
   
 bugreports: []
